@@ -1,0 +1,26 @@
+{
+  "name": "gulp-gouda",
+  "version": "0.0.0",
+  "description": "Drinkable cheese",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com.lorem/lorem--ipsum/gulp-gouda.git"
+  },
+  "author": "Sébastien Fragnaud",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^0.6.3",
+    "gouda": "0.0.3",
+    "merge": "^1.2.0",
+    "gulp-util": "^3.0.2"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.10",
+    "gutil": "^1.5.5"
+  }
+}

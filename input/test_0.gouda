@@ -1,0 +1,59 @@
+body {
+  background-color: #3e364e;
+  margin: 0;
+}
+
+div.loader {
+  width: 100px;
+  height: 100px;
+  background-color: lightgrey;
+  position: relative;
+}
+
+div.dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 50%;
+  left: 50%;
+  margin: -3px;
+  border-radius: 5px;
+  background-color: steelblue;
+}
+
+__dot(degree): %%%
+@-webkit-keyframes dot_degree_ {
+  0% {-webkit-transform: rotate(_degree_deg) translate(15px) rotate(-_degree_deg);}
+  100% {-webkit-transform: rotate(_degree_deg) translate(20px) rotate(-_degree_deg);}
+}
+div.dot_degree_ {
+  -webkit-transform: rotate(_degree_deg) translate(15px) rotate(-_degree_deg);
+  -webkit-animation: dot_degree_ infinite 0.5s alternate;
+  -webkit-animation-timing-function: linear;
+}
+%%%
+
+
+__dot(30)
+
+__dot(60)
+
+__dot(90)
+
+__dot(120)
+
+__dot(150)
+
+__dot(180)
+
+__dot(210)
+
+__dot(240)
+
+__dot(270)
+
+__dot(300)
+
+__dot(330)
+
+__dot(360)
